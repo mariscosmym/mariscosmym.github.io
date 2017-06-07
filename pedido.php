@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<title>La Marisconada</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link rel="stylesheet" href="style/estilo_pedido.css">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90%;
+}
+</style>
+<body>
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $('#checkbox1').change(function () {
+            if (this.checked) 
+            //  ^
+               $('#autoUpdate1').fadeIn('slow');
+            else 
+                $('#autoUpdate1').fadeOut('slow');
+        });
+        $('#checkbox2').change(function () {
+            if (this.checked) 
+            //  ^
+               $('#autoUpdate2').fadeIn('slow');
+            else 
+                $('#autoUpdate2').fadeOut('slow');
+        });
+        $('#checkbox3').change(function () {
+            if (this.checked) 
+            //  ^
+               $('#autoUpdate3').fadeIn('slow');
+            else 
+                $('#autoUpdate3').fadeOut('slow');
+        });
+        $('#checkbox4').change(function () {
+            if (this.checked) 
+            //  ^
+               $('#autoUpdate4').fadeIn('slow');
+            else 
+                $('#autoUpdate4').fadeOut('slow');
+        });
+        $('#checkbox5').change(function () {
+            if (this.checked) 
+            //  ^
+               $('#autoUpdate5').fadeIn('slow');
+            else 
+                $('#autoUpdate5').fadeOut('slow');
+        });
+        $('#checkbox6').change(function () {
+            if (this.checked) 
+            //  ^
+               $('#autoUpdate6').fadeIn('slow');
+            else 
+                $('#autoUpdate6').fadeOut('slow');
+        });
+        $('#checkbox7').change(function () {
+            if (this.checked) 
+            //  ^
+               $('#autoUpdate7').fadeIn('slow');
+            else 
+                $('#autoUpdate7').fadeOut('slow');
+        });
+        $('#checkbox8').change(function () {
+            if (this.checked) 
+            //  ^
+               $('#autoUpdate8').fadeIn('slow');
+            else 
+                $('#autoUpdate8').fadeOut('slow');
+        });
+    });
+    
+</script>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-blue w3-grayscale w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="index.php" class="w3-bar-item w3-button"><img src="imagenes/logo_mariscos_pagina.png" alt="Go to W3Schools!" width="80" height="60" border="0"></a>
+    <a href="index.php#menu" class="w3-bar-item w3-button">MENU</a>
+    <a href="index.php#about" class="w3-bar-item w3-button">ACERCA DE</a>
+    <a href="index.php#contacto" class="w3-bar-item w3-button">CONTACTO</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container" id="home">
+<div class="w3-container w3-padding-64 w3-xlarge" id="jaibas">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Haz tu pedido!<img src="imagenes/logo_mariscos_pagina.png" alt="Go to W3Schools!" width="150" height="120" border="0"></h1>
+
+    <form method="post" action="mailto:someone@example.com" enctype="text/plain">
+      
+        Ostiones (bolsas 1 Kg) $20.900 <input type="checkbox" id="checkbox1"/>
+        <div id="autoUpdate1" class="autoUpdate" hidden>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+            </select>
+        </div>
+
+        <br>
+
+        Ostiones c/concha (bolsas 1 Kg) $13.900 <input type="checkbox" id="checkbox2"/>
+        <div id="autoUpdate2" class="autoUpdate" hidden>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+            </select>
+        </div>
+
+        <br>
+
+        Machas (bandejas 1/2 Kg) $10.500 <input type="checkbox" id="checkbox3"/>
+        <div id="autoUpdate3" class="autoUpdate" hidden>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+            </select>
+        </div>
+
+        <br>
+
+        Machas media concha (bolsas 20 unidades) $6.900 <input type="checkbox" id="checkbox4"/>
+        <div id="autoUpdate4" class="autoUpdate" hidden>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+            </select>
+        </div>
+
+        <br>
+
+        Locos (bolsas 1 Kg - 10 un.) $20.700 <input type="checkbox" id="checkbox5"/>
+        <div id="autoUpdate5" class="autoUpdate" hidden>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+            </select>
+        </div>
+
+        <br>
+
+        Camarones (bolsas 1 Kg) $9.900 <input type="checkbox" id="checkbox6"/>
+        <div id="autoUpdate6" class="autoUpdate" hidden>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+            </select>
+        </div>
+
+        <br>
+
+        Blanquillo (bolsas 1 Kg) $12.900 <input type="checkbox" id="checkbox7"/>
+        <div id="autoUpdate7" class="autoUpdate" hidden>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+            </select>
+        </div>
+
+        <br>
+
+        Corvinilla (bolsas 1 Kg) $6.600 <input type="checkbox" id="checkbox8"/>
+        <div id="autoUpdate8" class="autoUpdate" hidden>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+            </select>
+        </div>
+
+        <br>
+        <br>
+
+        <input type="submit" value="Enviar">
+          
+    </form>
+
+
+    
+  </div>
+</div>
+
+</header>
+
+<!-- About Container -->
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-blue w3-grayscale w3-padding-48 w3-xxlarge">
+  <p><a href="index.php" title="W3.CSS" target="_blank" class="w3-hover-text-green">VOLVER INICIO</a></p>
+</footer>
+
+</body>
+</html>

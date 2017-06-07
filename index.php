@@ -16,7 +16,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 .bgimg {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("http://srferrer.cl/joomla/images/srferrer/CAMARONES.png");
+    background-image: url("imagenes/portada.png");
     min-height: 90%;
 }
 </style>
@@ -59,42 +59,42 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
     </div>
 
     <div id="Mariscos" class="w3-container menu w3-padding-32 w3-white">
-      <a href="ostiones_concha.html"><h1><b>Ostiones c/concha</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$13.900 / bolsa</span><span class="w3-right w3-tag w3-green w3-round">DISPONIBLE</span></h1></a>
+      <a href="ostiones_concha.php"><h1><b>Ostiones c/concha</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$13.900 / bolsa</span><span class="w3-right w3-tag w3-green w3-round">DISPONIBLE</span></h1></a>
       <p class="w3-text-grey">Ostiones con concha, frescos</p>
       <hr>
 
-      <a href="ostiones.html"><h1><b>Ostiones s/concha</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$20.900 / kg</span><span class="w3-right w3-tag w3-green w3-round">DISPONIBLE</span></h1></a>
+      <a href="ostiones.php"><h1><b>Ostiones s/concha</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$20.900 / kg</span><span class="w3-right w3-tag w3-green w3-round">DISPONIBLE</span></h1></a>
       <p class="w3-text-grey">Ostiones frescos sin agua</p>
       <hr>
 
-      <a href="pinzas_jaiba.html"><h1><b>Pinzas de Jaiba</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$16.900 / kg</span><span class="w3-right w3-tag w3-red w3-round">AGOTADO</span></h1></a>
+      <a href="pinzas_jaiba.php"><h1><b>Pinzas de Jaiba</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$16.900 / kg</span><span class="w3-right w3-tag w3-red w3-round">AGOTADO</span></h1></a>
       <p class="w3-text-grey">Pinzas premium</p>
       <hr>
    
-      <a href="camaron.html"><h1><b>Camarón Nacional 100/200</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.800 / kg</span><span class="w3-right w3-tag w3-green w3-round">DISPONIBLE</span></h1></a>
+      <a href="camaron.php"><h1><b>Camarón Nacional 100/200</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.800 / kg</span><span class="w3-right w3-tag w3-green w3-round">DISPONIBLE</span></h1></a>
       <p class="w3-text-grey">Camarones tamaño medio</p>
       <hr>
       
-      <a href="machas_concha.html"><h1><b>Machas Media Concha (bandejas)</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$6.900 / bdja.</span><span class="w3-right w3-tag w3-green w3-round">DISPONIBLE</span></h1></a>
+      <a href="machas_concha.php"><h1><b>Machas Media Concha (bandejas)</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$6.900 / bdja.</span><span class="w3-right w3-tag w3-green w3-round">DISPONIBLE</span></h1></a>
       <p class="w3-text-grey">Perfectos para "machas a la parmesana"</p>
       <hr>
 
-      <a href="machas.html"><h1><b>Machas S/Concha</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.500 / 1/2 kg</span><span class="w3-right w3-tag w3-green w3-round">DISPONIBLE</span></h1></a>
+      <a href="machas.php"><h1><b>Machas S/Concha</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.500 / 1/2 kg</span><span class="w3-right w3-tag w3-green w3-round">DISPONIBLE</span></h1></a>
       <p class="w3-text-grey">Perfectos para sopas</p>
       <hr>
 
-      <a href="locos.html"><h1><b>Locos</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$20.700 / kg</span><span class="w3-right w3-tag w3-green w3-round">DISPONIBLE</span></h1></a>
+      <a href="locos.php"><h1><b>Locos</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$20.700 / kg</span><span class="w3-right w3-tag w3-green w3-round">DISPONIBLE</span></h1></a>
       <p class="w3-text-grey">Locos grandes, frescos. Para servir al plato</p>
       <hr>
 
     </div>
 
     <div id="Pescados" class="w3-container menu w3-padding-32 w3-white">
-      <a href="blanquillo.html"><h1><b>Blanquillo</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.900 / kg</span><span class="w3-right w3-tag w3-green w3-round">DISPONIBLE</span></h1></a>
+      <a href="blanquillo.php"><h1><b>Blanquillo</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.900 / kg</span><span class="w3-right w3-tag w3-green w3-round">DISPONIBLE</span></h1></a>
       <p class="w3-text-grey">Blanquillo fresco premium</p>
       <hr>
 
-      <a href="corvinilla.html"><h1><b>Corvinilla</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$6.600 / kg</span><span class="w3-right w3-tag w3-green w3-round">DISPONIBLE</span></h1>
+      <a href="corvinilla.php"><h1><b>Corvinilla</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$6.600 / kg</span><span class="w3-right w3-tag w3-green w3-round">DISPONIBLE</span></h1>
       <p class="w3-text-grey"></p></a>
       <hr>
     </div>

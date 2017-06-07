@@ -20,10 +20,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 <!-- Navbar (sit on top) -->
 <div class="w3-top w3-hide-small">
   <div class="w3-bar w3-xlarge w3-blue w3-grayscale w3-opacity w3-hover-opacity-off" id="myNavbar">
-    <a href="index.html" class="w3-bar-item w3-button"><img src="imagenes/logo_mariscos_pagina.png" alt="Go to W3Schools!" width="80" height="60" border="0"></a>
-    <a href="index.html#menu" class="w3-bar-item w3-button">MENU</a>
-    <a href="index.html#about" class="w3-bar-item w3-button">ACERCA DE</a>
-    <a href="index.html#contacto" class="w3-bar-item w3-button">CONTACTO</a>
+    <a href="index.php" class="w3-bar-item w3-button"><img src="imagenes/logo_mariscos_pagina.png" alt="Go to W3Schools!" width="80" height="60" border="0"></a>
+    <a href="index.php#menu" class="w3-bar-item w3-button">MENU</a>
+    <a href="index.php#about" class="w3-bar-item w3-button">ACERCA DE</a>
+    <a href="index.php#contacto" class="w3-bar-item w3-button">CONTACTO</a>
   </div>
 </div>
   
@@ -71,7 +71,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 
 <!-- Footer -->
 <footer class="w3-center w3-blue w3-grayscale w3-padding-48 w3-xxlarge">
-  <p><a href="index.html" title="W3.CSS" target="_blank" class="w3-hover-text-green">VOLVER INICIO</a></p>
+  <p><a href="index.php" title="W3.CSS" target="_blank" class="w3-hover-text-green">VOLVER INICIO</a></p>
 </footer>
 
 </body>
